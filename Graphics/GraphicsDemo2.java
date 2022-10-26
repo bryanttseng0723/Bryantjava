@@ -18,7 +18,10 @@ public class GraphicsDemo2 extends Canvas
         g.fillArc(210,280,150,150,45,90);
 
         g.setColor(Color.yellow);
-        g.fillArc(150,400,150,150,45,270); // chomp
+        g.fillArc(150,400,150,150,45,270);
+        
+        g.setColor(Color.pink);
+        g.fillArc(350,400,100,100,225,270);// chomp
         
         // custom colors
         Color myOrange = new Color(230,92,0); // amount of red, green, blue in the color
