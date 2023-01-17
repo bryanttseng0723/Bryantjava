@@ -5,16 +5,16 @@ using namespace std;
 int main()
 {
     cout<<"What is your first number? \n" ;
-    int a;
+    double a;
     cin >>a;
     cout<<"What is your second number? \n" ;
-    int b;
+    double b;
     cin >> b;
     cout<<"What is your third number? \n" ;
-    int c;
+    double c;
     cin >>c;
 
-    int d=a+b+c;
+    double d=a+b+c;
 
     cout<<"( 1.1 + 2.2 + 5.5 ) / 2 is... "<< d*0.5 <<"\n" ;
 }
