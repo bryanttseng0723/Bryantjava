@@ -10,9 +10,9 @@ public:
     string Name;
     int age;
     int gradelevel;
-    double GPA; //average % of grades * 5
-    char gender; //'m' or 'f'
-    double grades[4];//[0] is English, [1] is Math, [2] is Science, [3] is Social Studies
+    double GPA; 
+    char gender; 
+    double grades[4];
     
     // constructor
     Student(string name, int Age, int Grade, char gen) 
