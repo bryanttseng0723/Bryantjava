@@ -118,7 +118,6 @@ public:
 
 int main() 
 {
-    // create 2 students with random grades
     Student s1("John", 18, 12, 'm');
     s1.setGrade("English", 85);
     s1.setGrade("Math", 90);
@@ -133,13 +132,11 @@ int main()
     s2.setGrade("Social Studies", 90);
     s2.calcGPA();
     
-    // print their grades and compare the grades of each of their courses and overall GPA
     s1.printGrades();
     cout << endl;
     s2.printGrades();
     cout << endl;
     
-    // compare their GPAs
     if(s1.getGPA() > s2.getGPA()) 
     {
         cout << s1.Name << " has a higher GPA by " << (s1.getGPA() - s2.getGPA()) << " points." << endl;
@@ -152,7 +149,7 @@ int main()
     {
         cout << "Both students have the same GPA." << endl;
     }
-    // compare their grades for each course
+ 
     
     cout << endl;
     Student::compareGrade("English", s1 ,s2);
