@@ -153,6 +153,12 @@ int main()
 
     cout << endl << "Planets with Moon: " << moon3.name << endl;
     cout << findMoon(moon3, solarSystem) << endl;
+    
+    cout << endl << "Planets with Moon: " << endl;
+    string input ;
+    cin >> input ;
+    Moon INPUT(input,0,0,0);
+    cout << findMoon(INPUT, solarSystem) ;
 
     return 0;
 }
